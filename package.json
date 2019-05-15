@@ -1,0 +1,11 @@
+{
+    "name": "test-lambda-serverless",
+    "version": "1.0.0",
+    "author": "Cyril Vermande",
+    "license": "MIT",
+    "description": "Test of AWS Lambda with Serverless",
+    "dependencies": {},
+    "devDependencies": {
+        "aws-sdk": "^2.456.0"
+    }
+}

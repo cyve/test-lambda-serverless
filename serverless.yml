@@ -1,0 +1,19 @@
+# @see https://serverless.com/framework/docs/
+
+service: test-lambda-serverless
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  hello:
+    handler: app.hello
+    events:
+        - http:
+            path: hello
+            method: GET
+
+package:
+    exclude:
+        - node_modules/**
